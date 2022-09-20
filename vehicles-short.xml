@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VEHICLES>
+  <MIL>
+    <USA>
+      <LAND>
+        <CAR>
+          <HMMWV LEN="4.6" LEN2="" WID="2.2" HEI="1.8" CREW="1+3" DEF="MEDIUM (~40% OF UNITS)" OFF="MG, AGL, ATGM" ENG="" COST="250K" UNTS="230000" VMAX="90" RNG="480" />
+          <LSV LEN="4.1" LEN2="" WID="2.1" HEI="2" CREW="2+2" DEF="" OFF="MG, AGL, ATGM" ENG="" COST="" UNTS="" VMAX="130" RNG="500" />
+          <L-ATV LEN="6.2" LEN2="" WID="2.5" HEI="2.6" CREW="1+4" DEF="CLASSIFIED" OFF="MG, AGL, ATGM" ENG="" COST="350K" UNTS="20000" VMAX="100" RNG="480" />
+          <RSOV LEN="4.4" LEN2="" WID="1.8" HEI="1.9" CREW="1+6" DEF="" OFF="MG, AGL" ENG="" COST="" UNTS="36" VMAX="" RNG="" />
+          <ISV LEN="5.4" LEN2="" WID="1.9" HEI="1.8" CREW="1+8" DEF="" OFF="MG" ENG="" COST="330K" UNTS="650" VMAX="" RNG="" />
+          <LARC-V LEN="11" LEN2="" WID="3.3" HEI="3.3" />
+          <IFAV LEN="4.7" LEN2="" WID="1.8" HEI="1.9" />
+          <LSSV LEN="6" LEN2="" WID="2" HEI="2" />
+        </CAR>
+        <TRCK>
+          <LMTV LEN="6.7" LEN2="" WID="2.4" HEI="2.8" CREW="2" DEF="MEDIUM" OFF="" ENG="" COST="150K-400K" UNTS="85000 (LMTV+MTV)" VMAX="94" RNG="500" />
+          <MTV LEN="7.2" LEN2="" WID="2.4" HEI="2.8" CREW="2" DEF="MEDIUM" OFF="MEADS/PATRIOT, HIMARS" ENG="160, 300" COST="150K-3.5M (HIMARS)" UNTS="85000 (LMTV+MTV)" VMAX="94" RNG="500" />
+          <HEMTT LEN="10.4" LEN2="8.3" WID="2.4" HEI="3" CREW="2" DEF="LIGHT-MEDIUM" OFF="THAAD" ENG="200" COST="250K-450K" UNTS="&gt;13000" VMAX="100" RNG="500" />
+          <PLS LEN="10.8" LEN2="" WID="2.5" HEI="3" CREW="2" DEF="LIGHT-MEDIUM" OFF="" ENG="" COST="350K" UNTS="8000+15000TR" VMAX="100" RNG="500" />
+          <LVSR LEN="11" LEN2="" WID="2.5" HEI="3" CREW="2+1" DEF="LIGHT-MEDIUM" OFF="" ENG="" COST="450K" UNTS="2000" VMAX="105" RNG="480" />
+          <M939 LEN="7" LEN2="9" WID="2.5" HEI="3.1" CREW="2" DEF="LIGHT" OFF="" ENG="" COST="" UNTS="30000" VMAX="90" RNG="400" />
+          <M1070 LEN="9.5" LEN2="" WID="2.6" HEI="3.9" CREW="2+4" DEF="LIGHT-MEDIUM" OFF="" ENG="" COST="450K" UNTS="4050" VMAX="80" RNG="720" />
+          <BV206 LEN="6.9" LEN2="" WID="1.9" HEI="2.4" CREW="1+5+11" DEF="" OFF="" ENG="" COST="" UNTS="" VMAX="65" RNG="" />
+          <R11 LEN="11.6" LEN2="" WID="2.7" HEI="2.6" />
+        </TRCK>
+        <TANK>
+          <M1 LEN="7.9" LEN2="9.8" WID="3.7" HEI="2.4" CREW="4" DEF="HEAVY" OFF="105/120, MG" ENG="4 (LAHAT:8)" COST="10.3M" UNTS="2500+3700" VMAX="70" RNG="400" />
+          <M2-M3 LEN="6.6" LEN2="" WID="3.6" HEI="3" CREW="3+7" DEF="MEDIUM" OFF="25, TOW" ENG="3 (6.8)" COST="5.5M" UNTS="6230" VMAX="64" RNG="480" />
+          <STRYKER LEN="7" LEN2="" WID="2.7" HEI="2.6" CREW="2+9" DEF="MEDIUM" OFF="105, AGL, 30" ENG="4" COST="5.9M" UNTS="4466" VMAX="100" RNG="500" />
+          <M113 LEN="4.9" LEN2="" WID="2.7" HEI="2.5" CREW="2+15" DEF="MEDIUM-HEAVY" OFF="MG, AGL, ATGM" ENG="4" COST="600K" UNTS="5000" VMAX="64" RNG="480" />
+          <M1117 LEN="6" LEN2="" WID="2.6" HEI="2.6" CREW="5" DEF="MEDIUM" OFF="MG, AGL" ENG="4" COST="1M" UNTS="1836" VMAX="100" RNG="770" />
+          <M88 LEN="8.3" LEN2="" WID="3.4" HEI="3.1" CREW="3" DEF="LIGHT" OFF="MG" ENG="2" COST="3.3M" UNTS="700" VMAX="50" RNG="450" />
+          <M9 LEN="6.3" LEN2="" WID="3.2" HEI="2.7" />
+          <PANDUR LEN="5.7" LEN2="" WID="2.5" HEI="1.8" />
+          <D9 LEN="8.1" LEN2="" WID="4.5" HEI="4" />
+          <M1074 LEN="9.8" LEN2="11.7" WID="3.7" HEI="1.7" />
+          <M1150 LEN="7.9" LEN2="12" WID="3.7" HEI="2.4" />
+        </TANK>
+        <MRAP>
+          <M-ATV LEN="6.3" LEN2="" WID="2.5" HEI="2.7" />
+          <M1224 LEN="6.5" LEN2="7.2" WID="2.5" HEI="3" />
+          <RG31 LEN="6.4" LEN2="" WID="2.5" HEI="2.6" />
+          <RG33 LEN="6.7" LEN2="8.5" WID="2.4" HEI="2.9" />
+          <BUFFALO LEN="8.2" LEN2="" WID="2.6" HEI="4" />
+          <COUGAR LEN="5.9" LEN2="" WID="2.7" HEI="2.6" />
+        </MRAP>
+        <ARTL>
+          <M109 LEN="9.1" LEN2="" WID="3.2" HEI="3.3" CREW="6(-A5), 4(A6-)" DEF="LIGHT" OFF="155" ENG="HE:21 RAP:30 EXC:40" COST="1.2M (2001-&gt;1.9M)" UNTS="992" VMAX="61" RNG="350" />
+          <M777 LEN="10.7" LEN2="9.5" WID="" HEI="" CREW="7+1" DEF="" OFF="155" ENG="M795:23 ERFB:30 EXC:40" COST="3.75M (2017)" UNTS="891" VMAX="" RNG="" />
+          <M119 LEN="6.3" LEN2="4.9" WID="1.8" HEI="" CREW="5-7" DEF="" OFF="105" ENG="20" COST="1.4M" UNTS="" VMAX="" RNG="" />
+          <M270 LEN="7" LEN2="" WID="3" HEI="2.6" CREW="3" DEF="LIGHT" OFF="M30, ATACMS" ENG="92, 300" COST="2.3M" UNTS="385 (991)" VMAX="65" RNG="500" />
+          <M142 LEN="7" LEN2="" WID="2.4" HEI="3.2" CREW="3" DEF="LIGHT" OFF="M30, ATACMS" ENG="92, 300" COST="3.8M" UNTS="410" VMAX="85" RNG="480"></M142>
+        </ARTL>
+        <AA>
+          <THAAD LEN="10.4" LEN2="8.3" WID="2.4" HEI="3" CREW="" DEF="LIGHT-MEDIUM" OFF="THAAD" ENG="200 (RAD:1400)" COST="20M/LNCH/COM 100M/RAD" UNTS="20BATT (6LNCH 2COM 1RAD)" VMAX="100" RNG="500" />
+          <AN-TWQ-1 LEN="5" LEN2="" WID="2.2" HEI="2.6" />
+        </AA>
+      </LAND>
+      <AIR>
+        <SINGLE>
+          <MQ-1 LEN="8.5" LEN2="" WID="17" HEI="2.1" />
+          <F-35 LEN="15.7" LEN2="" WID="10.7" HEI="4.4" />
+          <U-1 LEN="12.8" LEN2="" WID="17.7" HEI="3.8" />
+          <U-6 LEN="9.2" LEN2="" WID="14.6" HEI="2.7" />
+          <F-16 LEN="15.1" LEN2="" WID="10" HEI="4.9" />
+          <T-6 LEN="10.2" LEN2="10.2" WID="" HEI="3.3" />
+          <T-34 LEN="8.8" LEN2="" WID="10.2" HEI="2.9" />
+          <T-38 LEN="14.1" LEN2="" WID="7.7" HEI="3.9" />
+          <T-44 LEN="10.8" LEN2="" WID="15.3" HEI="4.3" />
+          <T-45 LEN="12" LEN2="" WID="9.4" HEI="4.1" />
+          <CQ-10 LEN="2.9" LEN2="" WID="2.1" HEI="" />
+          <AV-8 LEN="14.1" LEN2="" WID="9.3" HEI="3.6" />
+          <RQ-21 LEN="2.5" LEN2="" WID="4.9" HEI="" />
+          <MQ-4 LEN="14.5" LEN2="" WID="39.9" HEI="4.6" />
+          <MQ-9 LEN="11" LEN2="" WID="20" HEI="3.8" />
+          <RQ-4 LEN="14.5" LEN2="" WID="39.9" HEI="4.7" />
+          <RQ-170 LEN="4.5" LEN2="" WID="11.6" HEI="1.8" />
+          <T-41 LEN="8.2" LEN2="" WID="10.9" HEI="2.7" />
+          <T-51 LEN="7.3" LEN2="" WID="10.1" HEI="2.6" />
+          <T-53 LEN="7.9" LEN2="" WID="11.7" HEI="2.7" />
+          <U-2S LEN="19.2" LEN2="" WID="31" HEI="4.9" />
+          <U-2A LEN="15.2" LEN2="" WID="24.4" HEI="4.6" />
+          <U-28 LEN="14.4" LEN2="" WID="16.3" HEI="4.3" />
+        </SINGLE>
+        <DOUBLE>
+          <G4 LEN="27" LEN2="" WID="23.7" HEI="7.6" />
+          <C-26 LEN="12.9" LEN2="" WID="14" HEI="5.1" />
+          <C-27J LEN="22.7" LEN2="" WID="28.7" HEI="9.6" />
+          <G5 LEN="29.4" LEN2="" WID="28.5" HEI="8.2" />
+          <C-212 LEN="16.2" LEN2="" WID="20.3" HEI="6.6" />
+          <RC-12 LEN="13.3" LEN2="" WID="16.6" HEI="4.6" />
+          <RO-6 LEN="25.7" LEN2="" WID="27.4" HEI="7.5" />
+          <UC-35 LEN="14.9" LEN2="" WID="15.9" HEI="4.6" />
+          <FA-18 LEN="18.3" LEN2="" WID="13.6" HEI="4.9" />
+          <E-2 LEN="17.6" LEN2="" WID="24.6" HEI="5.6" />
+          <P-8 LEN="39.5" LEN2="" WID="37.6" HEI="12.8" />
+          <C-2 LEN="17.3" LEN2="" WID="24.6" HEI="4.8" />
+          <C-20 LEN="25.3" LEN2="" WID="23.7" HEI="7.4" />
+          <C-38 LEN="16.9" LEN2="" WID="16.6" HEI="5.5" />
+          <C-40 LEN="33.6" LEN2="" WID="34.3" HEI="12.6" />
+          <F-5 LEN="14.7" LEN2="" WID="8.1" HEI="4.1" />
+          <CL-650 LEN="20.9" LEN2="" WID="19.6" HEI="6.3" />
+          <F-27 LEN="25.1" LEN2="" WID="29" HEI="8.7" />
+          <UV-18 LEN="15.8" LEN2="" WID="19.8" HEI="5.9" />
+          <A-10 LEN="16.3" LEN2="" WID="17.5" HEI="4.5" />
+          <C-21 LEN="14.8" LEN2="" WID="12" HEI="3.7" />
+          <C-32 LEN="47.3" LEN2="" WID="38.1" HEI="13.5" />
+          <C-145 LEN="13.1" LEN2="" WID="22.1" HEI="4.9" />
+          <C-146 LEN="21.2" LEN2="" WID="21" HEI="7.1" />
+          <CN-235 LEN="21.4" LEN2="" WID="25.8" HEI="8.2" />
+          <E-11 LEN="30.3" LEN2="" WID="28.7" HEI="7.8" />
+          <F-15 LEN="19.4" LEN2="" WID="13.1" HEI="5.6" />
+          <F-22 LEN="18.9" LEN2="" WID="13.6" HEI="5.1" />
+          <KC-46 LEN="50.5" LEN2="" WID="48.1" HEI="15.9" />
+          <T-1 LEN="14.8" LEN2="" WID="13.3" HEI="4.2" />
+          <HC-144 LEN="21.4" LEN2="" WID="25.8" HEI="8.2" />
+        </DOUBLE>
+        <MULTI>
+          <KC-10 LEN="55.4" LEN2="" WID="50.4" HEI="17.7" />
+          <DHC-7 LEN="24.6" LEN2="" WID="28.4" HEI="8" />
+          <P-3 LEN="35.6" LEN2="" WID="30.4" HEI="10.3" />
+          <E-6 LEN="46.6" LEN2="" WID="45.2" HEI="12.9" />
+          <C-130 LEN="29.8" LEN2="" WID="40.4" HEI="11.8" />
+          <B-1 LEN="45" LEN2="" WID="42" HEI="10" />
+          <B-2 LEN="21" LEN2="" WID="52.4" HEI="5.2" />
+          <C-5 LEN="75.3" LEN2="" WID="67.9" HEI="19.8" />
+          <C-17 LEN="53" LEN2="" WID="51.8" HEI="" />
+          <E-3 LEN="46.6" LEN2="" WID="44.4" HEI="12.6" />
+          <E-4 LEN="70.5" LEN2="" WID="59.6" HEI="19.3" />
+          <E-8 LEN="46.6" LEN2="" WID="44.4" HEI="13" />
+          <C-135 LEN="41.5" LEN2="" WID="39.9" HEI="12.7" />
+          <VC-25 LEN="70.7" LEN2="" WID="59.9" HEI="19.3" />
+          <B-52 LEN="48.5" LEN2="" WID="56.4" HEI="12.4" />
+        </MULTI>
+        <HELI>
+          <MH-6 LEN="9.9" LEN2="7.5" WID="1.4" HEI="2.7" />
+          <AH-64 LEN="17.7" LEN2="15" WID="5.8" HEI="4" />
+          <CH-47 LEN="30" LEN2="16" WID="3.8" HEI="5.8" />
+          <UH-60 LEN="19.7" LEN2="15.3" WID="2.4" HEI="5.1" />
+          <UH-1 LEN="17.4" LEN2="12.5" WID="4.2" HEI="2.6" />
+          <UH-72 LEN="13" LEN2="" WID="" HEI="3.4" />
+          <V-22 LEN="17.5" LEN2="19.1" WID="14" HEI="5" />
+          <CH-53 LEN="27" LEN2="" WID="" HEI="7.6" />
+          <TH-57 LEN="12.1" LEN2="" WID="" HEI="2.8" />
+          <TH-73 LEN="12.9" LEN2="" WID="" HEI="3.6" />
+          <MQ-8C LEN="10.6" LEN2="" WID="" HEI="3.3" />
+          <MQ-8AB LEN="7.3" LEN2="" WID="8.4" HEI="2.9" />
+          <AH-1 LEN="17.8" LEN2="" WID="" HEI="4.4" />
+          <SH-3 LEN="16.7" LEN2="" WID="5" HEI="5.1" />
+          <MH-65 LEN="11.6" LEN2="" WID="" HEI="4" />
+        </HELI>
+      </AIR>
+      <SEA>
+        <CARR>
+          <FORD LEN="335" LEN2="" WID="78" HEI="76" />
+          <NIMITZ LEN="333" LEN2="" WID="76.8" HEI="" />
+          <WASP LEN="257" LEN2="" WID="31.8" HEI="" />
+          <AMERICA LEN="257" LEN2="" WID="32" HEI="" />
+          <BLUERIDGE LEN="193" LEN2="" WID="33" HEI="" />
+        </CARR>
+        <WRSHP>
+          <TICONDRG LEN="173" LEN2="" WID="16.8" HEI="" />
+          <ARL.BURKE LEN="155" LEN2="" WID="20" HEI="" />
+          <ZUMWALT LEN="190" LEN2="" WID="24.6" HEI="" />
+          <CONSTLLTN LEN="151.2" LEN2="" WID="19.8" HEI="" />
+          <FREEDOM LEN="115" LEN2="" WID="17.5" HEI="" />
+          <INDEPNDC LEN="127" LEN2="" WID="32" HEI="" />
+        </WRSHP>
+        <AMPH>
+          <RUNNYMEDE LEN="53" LEN2="" WID="13" HEI="" />
+          <S.ANTONIO LEN="208" LEN2="" WID="32" HEI="" />
+          <HRP.FERRY LEN="185.8" LEN2="" WID="26" HEI="" />
+          <WHIDBEY LEN="186" LEN2="" WID="62" HEI="" />
+        </AMPH>
+        <SUB>
+          <OHIO LEN="170" LEN2="" WID="13" HEI="" />
+          <L.ANGELES LEN="110" LEN2="" WID="10" HEI="" />
+          <SEAWOLF LEN="138" LEN2="108" WID="12" HEI="" />
+          <VIRGINIA LEN="140" LEN2="115" WID="10" HEI="" />
+        </SUB>
+        <SML>
+          <GREENE LEN="39" LEN2="" WID="11" HEI="" />
+          <MK.V LEN="25" LEN2="" WID="5.3" HEI="5.3" />
+          <RIVERINE LEN="10" LEN2="" WID="3" HEI="" />
+          <RHIB LEN="11" LEN2="" WID="3.2" HEI="5.3" />
+        </SML>
+        <SUPP>
+          <BESSON LEN="83" LEN2="" WID="18" HEI="" />
+          <WORTHY LEN="68" LEN2="" WID="13" HEI="" />
+          <AVENGER LEN="68" LEN2="" WID="12" HEI="" />
+          <CYCLONE LEN="55" LEN2="" WID="7.6" HEI="" />
+          <E.S.LAND LEN="198" LEN2="" WID="26" HEI="" />
+          <BANNER LEN="54" LEN2="" WID="9.8" HEI="" />
+        </SUPP>
+      </SEA>
+    </USA>
+    <RUSS>
+      <LAND>
+        <MTCL />
+        <CAR />
+        <TRCK />
+        <TANK />
+      </LAND>
+      <AIR>
+        <SML />
+        <LRG />
+        <GRND />
+      </AIR>
+      <SEA>
+        <CARR />
+        <DSTR />
+        <FRT />
+        <SUB />
+        <SML />
+      </SEA>
+    </RUSS>
+    <EURO>
+      <LAND>
+        <MTCL />
+        <CAR />
+        <TRCK />
+        <TANK />
+      </LAND>
+      <AIR>
+        <SML />
+        <LRG />
+        <GRND />
+      </AIR>
+      <SEA>
+        <CARR />
+        <DSTR />
+        <FRT />
+        <SUB />
+        <SML />
+      </SEA>
+    </EURO>
+    <ASIA>
+      <LAND>
+        <MTCL />
+        <CAR />
+        <TRCK />
+        <TANK />
+      </LAND>
+      <AIR>
+        <SML />
+        <LRG />
+        <GRND />
+      </AIR>
+      <SEA>
+        <CARR />
+        <DSTR />
+        <FRT />
+        <SUB />
+        <SML />
+      </SEA>
+    </ASIA>
+  </MIL>
+  <TEMPLATE LEN="" LEN2="" WID="" HEI=""></TEMPLATE>
+</VEHICLES>
