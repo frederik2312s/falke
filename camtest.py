@@ -39,29 +39,31 @@ tree = ET.parse('database/vehicles-short.xml')
 root = tree.getroot()
 
 # display size		TODO: fetch output resolution
-w, h = 1920, 1080
-dw, dh = w / 16, h / 16
-line = int(dh / 2)
+w, h = 1920, 1072
+dw, dh = 32, 16
+cw, ch = 60, 67
+line = 20
 # size
-wp, hp = int(dw * 10), int(dh * 8)  # picture
-wr, hr = int(dw * 10), int(dh * 7)  # resized picture
-wt, ht = int(dw * 5), int(dh * 3)  # target
-ws, hs = int(dw * 6), int(dh * 7)  # status
-wl, hl = int(dw * 16), int(dh * 9)  # livefeed
+wp, hp = dw * 37, dh * 30  # picture
+wr, hr = dw * 37, dh * 29  # resized picture
+wt, ht = dw * 15, dh * 13  # target
+ws, hs = dw * 23, dh * 29  # status
+wl, hl = dw * 60, dh * 38  # livefeed
 # position
-xp, yp = int(dw * 6), int(dh * 8)  # picture
-xr, yr = int(dw * 6), int(dh * 9)  # resized picture
-xt, yt = int(dw * 11), int(dh * 3)  # target
-xs, ys = int(dw * 0), int(dh * 9)  # status
-xl, yl = int(dw * 0), int(dh * 0)  # livefeed
+xp, yp = dw * 23, dh * 37  # picture
+xr, yr = dw * 23, dh * 38  # resized picture
+xt, yt = dw * 45, dh * 13  # target
+xs, ys = dw * 0, dh * 38  # status
+xl, yl = dw * 0, dh * 0  # livefeed
 
 camera = PiCamera()
-camera.resolution = (int(dw * 16), int(dh * 9))
-camera.window = (xl, yl, wl, hl)
+camera.resolution = (wl, hl)
+#camera.window = (xl, yl, wl, hl)
 camera.framerate = 32
 # rawCapture = PiRGBArray(camera, size=(640,480))
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", int(dh / 3))
-
+camera.start_preview(fullscreen=False, window=(xl, yl, wl, hl))
+#font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf", int(dh / 3))
+font=ImageFont.truetype("39335_UniversCondensed.ttf", dh)
 # create overlay masters
 overlaycanvaspicturemaster = Image.new('RGB', (wp, hp))
 overlaycanvastargetmaster = Image.new('RGB', (wt, ht))
@@ -77,9 +79,9 @@ overlaycanvaslivefeed = overlaycanvaslivefeedmaster.copy()
 # create overlays from work files
 picture = camera.add_overlay(overlaycanvaspicture.tobytes(), size=(wp, hp), format='rgb', layer=5, alpha=32,
                              fullscreen=False, window=(xp, yp, wp, hp))
-target = camera.add_overlay(overlaycanvastarget.tobytes(), size=(wt, ht), format='rgb', layer=6, alpha=32,
+target = camera.add_overlay(overlaycanvastarget.tobytes(), size=(wt, ht), format='rgb', layer=6, alpha=64,
                             fullscreen=False, window=(xt, yt, wt, ht))
-status = camera.add_overlay(overlaycanvasstatus.tobytes(), size=(ws, hs), format='rgb', layer=3, alpha=0,
+status = camera.add_overlay(overlaycanvasstatus.tobytes(), size=(ws, hs), format='rgb', layer=3, alpha=128,
                             fullscreen=False, window=(xs, ys, ws, hs))
 livefeed = camera.add_overlay(overlaycanvaslivefeed.tobytes(), size=(wl, hl), format='rgb', layer=4, alpha=0,
                               fullscreen=False, window=(xl, yl, wl, hl))
@@ -265,7 +267,7 @@ def statusdraw():
     drawstatus.text((0, int(0 * line)), "STATUS", font=font, fill=(255, 255, 255))
     drawstatus.text((0, int(1 * line)), "LOC: " + tloc, font=font, fill=(255, 255, 255))
     drawstatus.text((0, int(2 * line)), "UTC: " + tutc, font=font, fill=(255, 255, 255))
-    drawstatus.text((0, int(3 * line)), "UP:  " + tup, font=font, fill=(255, 255, 255))
+    drawstatus.text((0, int(3 * line)), "UP:  " + str(tup), font=font, fill=(255, 255, 255))
     drawstatus.text((0, int(4 * line)), "BAT: ", font=font, fill=(255, 255, 255))
     drawstatus.text((0, int(5 * line)), "LON: ", font=font, fill=(255, 255, 255))
     drawstatus.text((0, int(6 * line)), "LAT: ", font=font, fill=(255, 255, 255))
@@ -287,6 +289,7 @@ while True:
     # drawoverlay.text((20,20),"hello",font=font,fill=(255,255,255))
     # menu.update(overlay.tobytes())
     statusdraw()
+    print(str(ws)+" "+str(hs))
     # status.update(overlaycanvasstatus.tobytes())
     # environment.update(overlaycanvasenvironment.tobytes())
     time.sleep(0.2)
